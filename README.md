@@ -34,4 +34,7 @@ If you have sufficient GPU resources (DGX Spark or RTX PRO 6000), you can self-h
 
 After setting up the self-hosted endpoint, configure Opencode to point to your local server.
 
-> This document is assisted via OpenCode + Nemotron3 Super
+## Permissions
+Opencode allows all [tools](https://opencode.ai/docs/tools/) to run without explicit permission prompts by default. This is similar to running Codex with `codex --yolo` or Claude Code with `claude --dangerously-skip-permissions`, so it is convenient but risky.
+
+For sensitive codebases, consider running Opencode in Docker or configuring [permissions](https://opencode.ai/docs/permissions/) to restrict tool access.
