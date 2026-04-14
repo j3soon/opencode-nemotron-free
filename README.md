@@ -38,3 +38,7 @@ After setting up the self-hosted endpoint, configure Opencode to point to your l
 Opencode allows all [tools](https://opencode.ai/docs/tools/) to run without explicit permission prompts by default. This is similar to running Codex with `codex --yolo` or Claude Code with `claude --dangerously-skip-permissions`, so it is convenient but risky.
 
 For sensitive codebases, consider running Opencode in Docker or configuring [permissions](https://opencode.ai/docs/permissions/) to restrict tool access.
+
+## Notes
+
+One good use I have personally tested is asking questions about a codebase. For most questions I tried, it felt comparable to Codex / Claude Code.
