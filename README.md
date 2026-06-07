@@ -22,10 +22,14 @@ npm install -g opencode-ai
 Opencode includes free Nemotron 3 Super by default. Note that this option may train on your data to improve the service. See Opencode's [privacy policy](https://opencode.ai/docs/zen/#privacy) for details.
 
 ## Option 2: Use Open Router
-Configure Opencode to use free Nemotron 3 Super through Open Router, which to the best of my knowledge does not train on your data. Refer to the [NVIDIA Nemotron documentation](https://docs.nvidia.com/nemotron/latest/usage-cookbook/Nemotron-3-Super/OpenScaffoldingResources/README.html).
+Configure Opencode to use free Nemotron 3 Super through Open Router. Refer to the [NVIDIA Nemotron documentation](https://docs.nvidia.com/nemotron/latest/usage-cookbook/Nemotron-3-Super/OpenScaffoldingResources/README.html).
+
+Review the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf), which describe data usage for trial services and restrict submitting sensitive data. Also see OpenRouter's [data collection](https://openrouter.ai/docs/guides/privacy/data-collection/) and [provider logging](https://openrouter.ai/docs/guides/privacy/provider-logging/) docs for OpenRouter's logging defaults and upstream provider data policies.
 
 ## Option 3: Use build.nvidia.com
-Configure Opencode to use free Nemotron 3 Super via NVIDIA's build service, which to the best of my knowledge does not train on your data. Learn more in the [NVIDIA blog introducing Nemotron 3 Super](https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/#see_it_in_action).
+Configure Opencode to use free Nemotron 3 Super via NVIDIA's build service. Learn more in the [NVIDIA blog introducing Nemotron 3 Super](https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/#see_it_in_action).
+
+Review the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf), which describe data usage for trial services and restrict submitting sensitive data.
 
 ## Self-hosting (For Large GPUs)
 If you have sufficient GPU resources (DGX Spark or RTX PRO 6000), you can self-host Nemotron 3 Super:
