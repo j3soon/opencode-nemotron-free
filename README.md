@@ -2,6 +2,8 @@
 
 Minimal guide to configure Opencode to use free Nemotron 3 Super models.
 
+For scripts setup reference, see the [NVIDIA Nemotron 3 example](https://github.com/j3soon/local-llm-notes/blob/main/examples/basic-secure-api/README.md#nvidia-nemotron-3).
+
 ## Installation
 
 You can [install Opencode](https://opencode.ai/docs/#install) using the following command:
